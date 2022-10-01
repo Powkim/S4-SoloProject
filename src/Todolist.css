@@ -1,0 +1,94 @@
+li{list-style: none;padding: 8px;}
+#wrap{
+    width: 100%;
+    height: 100vh;
+    background-color: #F3E5D0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Todoform {
+    width: 280px;height: 40px;
+     border-radius: 10px;
+margin: auto;
+     display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+color: #FFF6C7;
+background-color: #B4B182;
+
+
+}
+#Todoform>input{
+    background-color: #B4B182;
+    width: 200px;
+    font-size: 17px;
+padding: 10px;
+color: #FFF6C7;
+margin-right: 30px;
+
+}
+#Todoform>button {
+    background-color: #B4B182;
+    font-size: 17px;
+color: #FFF6C7;
+
+}
+#Todowrap {
+    width:365px;
+  height:560px;
+  background-color: #FFF4CF;
+
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+
+}
+#titlewrap{
+    width: 280px;
+    height: 120px;
+
+margin: auto; 
+border-radius: 20px;
+display: flex;
+flex-direction:column;
+}
+#titlewrap>span {
+    font-size: 20px;
+color: #FFBC58;
+margin: auto;
+
+    }
+#listwrap{
+    width: 280px;
+    height: 400px;
+  
+    margin: auto; 
+    border-radius: 20px;
+    overflow-y: auto;
+}
+
+#Todolist{
+    background-color: #B99777;
+  margin: auto;
+  text-align: left;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+#delbutton{width: 25px; height: 25px;float: right; margin-right: 10px;     background-color: #B99777;} 
+
+#editbutton{width: 25px;
+    height: 25px;
+float: right;
+margin-right: 10px;
+background-color: #B99777;}
+.NoteTitle{
+color: #fff;
+font-size: 18px;
+}
+.NoteDate{
+    font-size: 15px;
+    color: #D0D0D0;
+}
