@@ -75,7 +75,7 @@ e.preventDefault();
 }
   const Submit=(e) =>{
     e.preventDefault();
-    console.log('함수 실행중!')
+ 
     const title={"bodys":bodys,"Edit":false,"Date":date}
     fetch('http://localhost:3001/Todo', {
       method:"POST",
@@ -105,7 +105,7 @@ e.preventDefault();
   window.location.reload()
       })
       .catch(err => console.log(err));
-      console.log(id)
+  
   }
 return(
 <div id="wrap">
@@ -114,7 +114,7 @@ return(
         <span>My To-Do list</span>
         <form id="Todoform" onSubmit={Submit} >
             <input id="Todoinput" type='text' placeholder='type your Todolist'  value={bodys} onChange={(e)=>setBody(e.target.value)}></input>
-<button id='Todobutton' >입력
+<button id='Todobutton' >추가
   </button>  
             </form>
       </div>

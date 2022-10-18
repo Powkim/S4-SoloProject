@@ -29,7 +29,8 @@ function App() {
  
   }, [])
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename={process.env.PUBLIC_URL}
+    >
    <div>
    <Routes>
    <Route exact path="/" element={<Todolist ToDos={ToDos} />} />
